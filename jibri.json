@@ -1,0 +1,30 @@
+{
+    "recording_directory": "/recordings",
+    "finalize_recording_script_path": "",
+    "xmpp_environments": [
+        {
+            "name": "prod environment",
+            "xmpp_server_hosts": [
+                "meet.conferenceindia.live"
+            ],
+            "xmpp_domain": "vc.streamontech.com",
+            "control_login": {
+                "domain": "auth.vc.streamontech.com",
+                "username": "jibri",
+                "password": "jibriauth@712"
+            },
+            "control_muc": {
+                "domain": "internal.auth..streamontechvc.com",
+                "room_name": "JibriBrewery",
+                "nickname": "jibri-nickname"
+            },
+            "call_login": {
+                "domain": "recorder.vc.streamontech.com",
+                "username": "recorder",
+                "password": "recorder@712"
+            },
+            "room_jid_domain_string_to_strip_from_start": "conference.",
+            "usage_timeout": "0"
+        }
+    ]
+}

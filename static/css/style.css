@@ -1,0 +1,17 @@
+.category-card{
+  overflow: hidden
+}
+.category-card:hover{
+  background-color: lightblue;
+  color: white;
+}
+.category-card > div > p{
+  
+}
+.category-card > div > p:hover{
+  color: black;
+}
+#home-card{
+  justify-content: center;
+  line-height: normal;
+}
